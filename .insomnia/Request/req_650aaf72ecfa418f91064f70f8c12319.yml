@@ -1,0 +1,42 @@
+_id: req_650aaf72ecfa418f91064f70f8c12319
+type: Request
+parentId: fld_cea7a0775bd94c50b1ef637adbfd645c
+modified: 1680041195062
+created: 1680021081246
+url: http://192.168.217.101:9090/sendMo_1
+name: SUBMIT HSS SINGLE_mypc3
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+
+        "origDigits": "581136720111",
+        "origTon": 1,
+        "origNpi": 1,
+        "dstDigits": "2877",
+        "dstTon": 1,
+        "dstNpi": 1,
+        "statusReport": false,
+        "pid": 0,
+        "text": "CITIBANAMEX CODIGO SMS: 112212",
+        "udh": false,
+    		"mapVersion": 3,
+    		"emptyBegin": false,
+        "dataCoding": 0
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669242665339.9453
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

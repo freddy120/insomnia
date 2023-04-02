@@ -1,0 +1,28 @@
+_id: req_9023a4d6d8ef424a8b8a6d5326cc607e
+type: Request
+parentId: fld_cea7a0775bd94c50b1ef637adbfd645c
+modified: 1680172229685
+created: 1680172146806
+url: http://192.168.217.101:8081/test/sendMo_unbind_smsc
+name: SMPP ESME UNBIND_SMSC1
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "systemId": "CLARO_AAG_MT"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669242665240.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

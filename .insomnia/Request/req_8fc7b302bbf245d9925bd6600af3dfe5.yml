@@ -1,0 +1,45 @@
+_id: req_8fc7b302bbf245d9925bd6600af3dfe5
+type: Request
+parentId: fld_fe57e54c2f7447e6bdad36e27a3ba84c
+modified: 1673890120266
+created: 1673370661448
+url: http://192.168.5.127:8081/test/sendMo_1
+name: SMPP ESME SUBMIT
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+
+        "origDigits": "16667",
+        "origTon": 1,
+        "origNpi": 1,
+        "dstDigits": "541136720111",
+        "dstTon": 1,
+        "dstNpi": 1,
+        "statusReport": false,
+        "pid": 100,
+        "text": "MI CODIGO ES 1234",
+        "udh": false,
+        "encoding": "GSM_7_DEFAULT",
+        "systemId": "CLARO_GW_MT",
+        "specialCase": false,
+        "concurrent": false,
+        "numberOfMsg": 1,
+        "randomNumbers": false
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669242665392.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

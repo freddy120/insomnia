@@ -1,0 +1,21 @@
+_id: req_1bcddbcdd99c4495a4dd6cd9fc59034b
+type: Request
+parentId: fld_cea7a0775bd94c50b1ef637adbfd645c
+modified: 1677180198897
+created: 1677180157639
+url: http://192.168.217.100:8081/actuator/refresh
+name: Refresh SMSC
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669242665315.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

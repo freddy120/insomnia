@@ -1,0 +1,21 @@
+_id: req_7f08a91618c14a2f84c3721d888698bd
+type: Request
+parentId: fld_d53fea3ff39b4d6890617095e49d76ed
+modified: 1671055643253
+created: 1671054540221
+url: http://{{ _.ip_emag }}:8081/cli/v1/get_app_context_by_system_id
+name: context_by_app
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671054540221
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

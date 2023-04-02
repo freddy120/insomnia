@@ -1,0 +1,28 @@
+_id: req_8eb5434ca63a4351b8eb3e03d0278744
+type: Request
+parentId: wrk_65ccc4e3f77f4c4b936ffe694d0879a7
+modified: 1674662583974
+created: 1671047558142
+url: http://192.168.2.140:8083/test/send_unbind
+name: SMPP ESME UNBIND
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "systemId": "CLARO_ESME"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669242665321
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

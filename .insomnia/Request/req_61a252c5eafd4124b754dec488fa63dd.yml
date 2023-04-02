@@ -1,0 +1,21 @@
+_id: req_61a252c5eafd4124b754dec488fa63dd
+type: Request
+parentId: fld_234b6347c12f41c392e5a71775e4ea52
+modified: 1671055713039
+created: 1671054765652
+url: http://{{ _.ip_emag }}:8081/emag/feature_profile
+name: config_fp
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671054765652
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

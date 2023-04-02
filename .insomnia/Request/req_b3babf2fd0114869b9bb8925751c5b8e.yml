@@ -1,0 +1,21 @@
+_id: req_b3babf2fd0114869b9bb8925751c5b8e
+type: Request
+parentId: fld_234b6347c12f41c392e5a71775e4ea52
+modified: 1672331248627
+created: 1672331075794
+url: http://{{ _.ip_emag }}:8081/smpp/v1/stop_smpp_server?port=10000
+name: SMPP_SERVER_STOP
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1672328117611.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

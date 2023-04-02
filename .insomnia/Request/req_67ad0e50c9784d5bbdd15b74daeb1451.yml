@@ -1,0 +1,21 @@
+_id: req_67ad0e50c9784d5bbdd15b74daeb1451
+type: Request
+parentId: fld_cea7a0775bd94c50b1ef637adbfd645c
+modified: 1677180236624
+created: 1677180207994
+url: http://192.168.217.100:8081/conf/v1/restart_rules
+name: Restart Rules SMSC
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1669242665303.0312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

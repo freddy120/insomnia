@@ -1,0 +1,21 @@
+_id: req_70fb29806a5146d9aebf66b6e3180b61
+type: Request
+parentId: fld_d53fea3ff39b4d6890617095e49d76ed
+modified: 1671055503971
+created: 1671054576681
+url: http://{{ _.ip_emag }}:8081/cli/v1/get_app_bind_counters
+name: MAX_conn_APPs
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671054576681
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

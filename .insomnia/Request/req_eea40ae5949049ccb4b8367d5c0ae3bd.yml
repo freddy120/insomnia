@@ -1,0 +1,21 @@
+_id: req_eea40ae5949049ccb4b8367d5c0ae3bd
+type: Request
+parentId: fld_3047a5a33d6542abb2cf4dbfdf7b5903
+modified: 1676032680028
+created: 1676032421818
+url: http://{{ _.ip_core1 }}:9090/cli/v1/cluster_gw_status
+name: core - gw status
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1674725522134.5352
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

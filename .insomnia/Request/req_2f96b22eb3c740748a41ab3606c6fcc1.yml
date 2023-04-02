@@ -1,0 +1,42 @@
+_id: req_2f96b22eb3c740748a41ab3606c6fcc1
+type: Request
+parentId: fld_1658c85db5764fca8e9b22dffedb50c6
+modified: 1675872884931
+created: 1674138682058
+url: http://192.168.217.90:9090/sendPussr
+name: SUBMIT USSD  PUSSR
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"ussdDataCodingScheme": 0,
+      "ussdString": "123",
+    	"origMsisdnAddr": "541136720111",
+    	"origMsisdnTon": 1,
+    	"origMsisdnNpi": 1,
+    	"destinationReferenceAddr": "541136720111",
+    	"destinationReferenceExt": 1,
+    	"destinationReferenceNn": 1,
+    	"destinationReferenceNp": 1,
+    	"originationReferenceAddr": "541136720999",
+    	"originationReferenceExt": 1,
+    	"originationReferenceNn": 1,
+    	"originationReferenceNp": 1,
+    	"mapVersion": 2
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674698745825.6562
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

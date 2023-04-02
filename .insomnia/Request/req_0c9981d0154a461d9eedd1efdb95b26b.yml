@@ -1,0 +1,45 @@
+_id: req_0c9981d0154a461d9eedd1efdb95b26b
+type: Request
+parentId: wrk_65ccc4e3f77f4c4b936ffe694d0879a7
+modified: 1670884071432
+created: 1669413663069
+url: http://192.168.2.140:8083/test/sendMo_1_smsc
+name: SMPP ESME SUBMIT_SMSC apps
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	
+    	"origTon": 1,
+    	"origNpi": 1,
+    	"origDigits": "541136720018",
+    	"dstTon": 4,
+    	"dstNpi": 9,
+    	"dstDigits": "44535",
+    	"statusReport": false,
+    	"pid": 0,
+    	"text": "Hello world,n:ÄÖöñÑÜà%&#*(), spanish: ÁáÚ€úÍí{}ç[~]Óó",
+    	"udh": false,
+    	"encoding": "GSM_7_DEFAULT",
+    	"systemId": "APP_AGG_MO_VIA",
+    	"specialCase": false,
+    	"concurrent": false,
+    	"numberOfMsg": 1,
+    	"randomNumbers": false
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669242665246
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

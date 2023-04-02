@@ -1,0 +1,14 @@
+_id: env_04c414d3677d4145af3054650c8f9c2a
+type: Environment
+parentId: env_cec9a27c54ad13581ade51f3ff3198d83977c8fa
+modified: 1671055577347
+created: 1671055540107
+name: ENV_prod_EMAGVLZ01
+data:
+  ip_emag: 10.9.10.132
+dataPropertyOrder:
+  "&":
+    - ip_emag
+color: null
+isPrivate: false
+metaSortKey: 1671055481909.5

@@ -1,0 +1,25 @@
+_id: req_465848a646ac4ecaa992b2541d78b99b
+type: Request
+parentId: fld_1658c85db5764fca8e9b22dffedb50c6
+modified: 1675976944634
+created: 1675963764236
+url: http://192.168.2.178:9090/cli/get_variables
+name: core - get session vars
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_f5113d74bef84ec48bc7c5ea7c3de0e9
+    name: sessionId
+    value: 00000001_6f55774b-672c-45ea-930d-13769c19321d
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1674716596698.2422
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

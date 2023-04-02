@@ -1,0 +1,21 @@
+_id: req_c274fc3bbaff4844b570c03b86347103
+type: Request
+parentId: fld_234b6347c12f41c392e5a71775e4ea52
+modified: 1672325888336
+created: 1672325883627
+url: http://{{ _.ip_emag }}:8081/cli/v1/cluster_emag_interfaces_state
+name: EMAG_STATUS_Interfaces_CLUSTER
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671690268714
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

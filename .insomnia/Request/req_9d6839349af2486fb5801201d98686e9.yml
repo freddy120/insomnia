@@ -1,0 +1,21 @@
+_id: req_9d6839349af2486fb5801201d98686e9
+type: Request
+parentId: fld_fe57e54c2f7447e6bdad36e27a3ba84c
+modified: 1673886285048
+created: 1673885669685
+url: http://192.168.5.126:8081/conf/v1/restart_rules
+name: restart Rules
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1673885669685
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,34 @@
+_id: req_e478e53c02424231be871f7ae06cfeaf
+type: Request
+parentId: fld_1658c85db5764fca8e9b22dffedb50c6
+modified: 1675873265593
+created: 1675289814820
+url: http://192.168.217.90:9090/send_ussr_last
+name: SUBMIT USSD  USSR LAST
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"ussdDataCodingScheme": 15,
+      "ussdString": "10",
+    	"sessionId": "8556f5ee-f87f-4511-b0c5-678c48c9fb5b"
+    }
+parameters:
+  - id: pair_c874bca32afa453a9f083153960d9701
+    name: sessionId
+    value: 0972b651-2803-4129-867f-f3cbd7574d55
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674645510911.3281
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

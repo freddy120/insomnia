@@ -1,0 +1,21 @@
+_id: req_cbca0501894b49b681cfd6b48ffa9b3c
+type: Request
+parentId: fld_234b6347c12f41c392e5a71775e4ea52
+modified: 1672422968671
+created: 1672331169622
+url: http://{{ _.ip_emag }}:8081/smpp/v1/start_smpp_server?port=10000
+name: SMPP_SERVER_START
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1672326919328.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

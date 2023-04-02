@@ -1,0 +1,47 @@
+_id: req_244236651f6c454bb043048ab1bea475
+type: Request
+parentId: wrk_65ccc4e3f77f4c4b936ffe694d0879a7
+modified: 1675108919164
+created: 1669242832507
+url: http://192.168.2.140:8083/test/sendMo_multi_concurrent
+name: SMPP ESME SUBMIT MULTI
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+
+        "origDigits": "541136720111",
+        "origTon": 2,
+        "origNpi": 1,
+        "dstDigits": "541136720111",
+        "dstTon": 2,
+        "dstNpi": 1,
+        "statusReport": false,
+        "pid": 0,
+        "text": "Hello",
+        "udh": false,
+        "encoding": "GSM_7_DEFAULT",
+        "dcs": 0,
+        "systemId": "CLARO_ESME",
+        "numberOfMsg": 250,
+        "periodMillis": 1000,
+        "concurrent": true,
+        "concurrentCount": 86400,
+        "randomNumbers": false
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669242832507
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

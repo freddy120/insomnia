@@ -1,0 +1,42 @@
+_id: req_018d78a894864fc9955a23831bd3e44b
+type: Request
+parentId: fld_fe57e54c2f7447e6bdad36e27a3ba84c
+modified: 1673889138563
+created: 1672860541149
+url: http://192.168.5.131:9090/sendMo_1
+name: SUBMIT HSS SINGLE
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+
+        "origDigits": "541136720111",
+        "origTon": 1,
+        "origNpi": 1,
+        "dstDigits": "541136720111",
+        "dstTon": 1,
+        "dstNpi": 1,
+        "statusReport": false,
+        "pid": 0,
+        "text": "MI CODIGO ES 999943219",
+        "udh": false,
+    		"mapVersion": 3,
+    		"emptyBegin": false,
+        "dataCoding": 0
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669242665342.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

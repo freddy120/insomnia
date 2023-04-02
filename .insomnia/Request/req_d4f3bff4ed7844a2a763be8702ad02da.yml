@@ -1,0 +1,21 @@
+_id: req_d4f3bff4ed7844a2a763be8702ad02da
+type: Request
+parentId: fld_234b6347c12f41c392e5a71775e4ea52
+modified: 1671055699628
+created: 1671054816383
+url: http://{{ _.ip_emag }}:8081/emag/service_centre_profile
+name: config_service_centre_profile
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671054816383
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

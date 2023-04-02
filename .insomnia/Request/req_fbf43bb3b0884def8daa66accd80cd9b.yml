@@ -1,0 +1,35 @@
+_id: req_fbf43bb3b0884def8daa66accd80cd9b
+type: Request
+parentId: wrk_65ccc4e3f77f4c4b936ffe694d0879a7
+modified: 1670884093477
+created: 1669242759973
+url: http://192.168.2.139:8081/cli/search_endpoint_route
+name: ENDPOINT ROUTE SEARCH
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "systemIdProfile": "Aplicaciones_MO",
+      "pid": "0",
+      "destTon": "4",
+      "destNpi": "9",
+      "destDigits": "44535",
+      "origTon": "2",
+      "origNpi": "1",
+      "origDigits": "1136720004"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669242759973
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

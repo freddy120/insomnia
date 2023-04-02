@@ -1,0 +1,14 @@
+_id: env_45cf1108a251413fb9852625f02774cc
+type: Environment
+parentId: env_cec9a27c54ad13581ade51f3ff3198d83977c8fa
+modified: 1672325689644
+created: 1672325664572
+name: ENV_dev_EMAG02
+data:
+  ip_emag: 192.168.2.141
+dataPropertyOrder:
+  "&":
+    - ip_emag
+color: null
+isPrivate: false
+metaSortKey: 1671055463038.25

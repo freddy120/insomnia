@@ -1,0 +1,21 @@
+_id: req_9869cd958072444ea75cd23f5ba58661
+type: Request
+parentId: fld_d53fea3ff39b4d6890617095e49d76ed
+modified: 1671055651011
+created: 1671054415459
+url: http://{{ _.ip_emag }}:8081/cli/v1/get_sc_target_contexts
+name: SC_level_context
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671054415459
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

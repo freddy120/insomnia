@@ -1,0 +1,43 @@
+_id: req_18ea1f1b45eb4bafb0b70a539ef43410
+type: Request
+parentId: fld_cea7a0775bd94c50b1ef637adbfd645c
+modified: 1680018509798
+created: 1680016208873
+url: http://192.168.217.101:9090/sendMo_1
+name: SUBMIT HSS SINGLE_mypc2
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+
+        "origDigits": "581136720111",
+        "origTon": 1,
+        "origNpi": 1,
+        "dstDigits": "541136720111",
+        "dstTon": 1,
+        "dstNpi": 1,
+        "statusReport": false,
+        "pid": 0,
+        "text": "Hello world,n:ÄÖöñÑÜà%&#*(), spanish: ÁáÚ€úÍí{}ç[~]Óó",
+        "udh": false,
+    		"mapVersion": 3,
+    	"origImsi": "722070136770436",
+    		"emptyBegin": true,
+        "dataCoding": 0
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669242665340.1406
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_d1f642454d3d4090a8d982309aba3160
+type: Request
+parentId: fld_234b6347c12f41c392e5a71775e4ea52
+modified: 1671055692728
+created: 1671054791025
+url: http://{{ _.ip_emag }}:8081/emag/application_profile
+name: config_ap_profile
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671054791025
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_e3ccf2fff712483cb2d685269f2a4b95
+type: Request
+parentId: fld_234b6347c12f41c392e5a71775e4ea52
+modified: 1672330966979
+created: 1672330514178
+url: http://{{ _.ip_emag }}:8081/smpp/v1/status_smpp_server?port=10000
+name: SMPP_SERVER_STATUS
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1672330514178
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

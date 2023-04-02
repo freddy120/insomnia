@@ -1,0 +1,21 @@
+_id: req_7d6b9f16cb524b6ea1aa4fdbae9bdf45
+type: Request
+parentId: fld_234b6347c12f41c392e5a71775e4ea52
+modified: 1671055675795
+created: 1671054721620
+url: http://{{ _.ip_emag }}:8081/emag/smpp_network
+name: config_smpp_network
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671054721620
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,45 @@
+_id: req_c362d888ff874f818f65507290a5cd75
+type: Request
+parentId: wrk_65ccc4e3f77f4c4b936ffe694d0879a7
+modified: 1672628818188
+created: 1672628513119
+url: http://192.168.2.140:8083/test/sendMo_1
+name: SMPP ESME SUBMIT_DLR
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+
+        "origDigits": "541136720018",
+        "origTon": 2,
+        "origNpi": 1,
+        "dstDigits": "541136720111",
+        "dstTon": 1,
+        "dstNpi": 1,
+        "statusReport": true,
+        "pid": 100,
+        "text": "Hello world,n:ÄÖöñÑÜà%&#*(), spanish: ÁáÚ€úÍí{}ç[~]Óó",
+        "udh": false,
+        "encoding": "GSM_7_DEFAULT",
+        "systemId": "ESME02",
+        "specialCase": false,
+        "concurrent": false,
+        "numberOfMsg": 1,
+        "randomNumbers": false
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669242665339.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

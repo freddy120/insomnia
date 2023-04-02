@@ -1,0 +1,16 @@
+_id: env_6698655f51d64c7d900416779dd7b6c6
+type: Environment
+parentId: env_cec9a27c54ad13581ade51f3ff3198d83977c8fa
+modified: 1676032643715
+created: 1676032509159
+name: USSD_TMA_env
+data:
+  ip_gw1: 10.9.10.167
+  ip_core1: 10.9.10.164
+dataPropertyOrder:
+  "&":
+    - ip_gw1
+    - ip_core1
+color: null
+isPrivate: false
+metaSortKey: 1676032509159

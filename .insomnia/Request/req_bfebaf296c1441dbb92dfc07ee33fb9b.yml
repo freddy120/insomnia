@@ -1,0 +1,21 @@
+_id: req_bfebaf296c1441dbb92dfc07ee33fb9b
+type: Request
+parentId: fld_234b6347c12f41c392e5a71775e4ea52
+modified: 1671055668684
+created: 1671054642823
+url: http://{{ _.ip_emag }}:8081/emag/reload
+name: RELOAD
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671054642823
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_afa9b64518fc4224a058bd7bbd930cc4
+type: Request
+parentId: fld_cea7a0775bd94c50b1ef637adbfd645c
+modified: 1680172244554
+created: 1680172161833
+url: http://192.168.217.101:8081/test/send_unbind
+name: SMPP ESME UNBIND1
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "systemId": "ESME1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1669242665190.5312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

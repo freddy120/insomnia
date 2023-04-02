@@ -1,0 +1,21 @@
+_id: req_8ee593673c0e4909ae2d434ef6b0a75d
+type: Request
+parentId: fld_d53fea3ff39b4d6890617095e49d76ed
+modified: 1674592302989
+created: 1674592275997
+url: http://{{ _.ip_emag }}:8081/cli/v1/get_conn_state
+name: conn_state
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1674592275997
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

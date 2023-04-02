@@ -1,0 +1,21 @@
+_id: req_ee5da67e2362449c8019ee50664ec3bb
+type: Request
+parentId: fld_d53fea3ff39b4d6890617095e49d76ed
+modified: 1671055659613
+created: 1671054448516
+url: http://{{ _.ip_emag }}:8081/cli/v1/get_network_contexts
+name: Network_sc_tcpip_context
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671054415409
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
