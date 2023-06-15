@@ -1,7 +1,7 @@
 _id: req_27bc2f7c195241edba7a35fdbe5b3c15
 type: Request
 parentId: fld_cea7a0775bd94c50b1ef637adbfd645c
-modified: 1680018457895
+modified: 1686689338268
 created: 1677101635626
 url: http://192.168.217.101:9090/sendMo_1
 name: SUBMIT HSS SINGLE_mypc
@@ -12,18 +12,18 @@ body:
   text: |-
     {
 
-        "origDigits": "581136720111",
+        "origDigits": "593931214321",
         "origTon": 1,
         "origNpi": 1,
-        "dstDigits": "541136720111",
-        "dstTon": 1,
+        "dstDigits": "7888",
+        "dstTon": 0,
         "dstNpi": 1,
         "statusReport": false,
         "pid": 0,
-        "text": "Hello world,n:ÄÖöñÑÜà%&#*(), spanish: ÁáÚ€úÍí{}ç[~]Óó",
+        "text": "Prueba 1",
         "udh": false,
-    		"origImsi": "722070136770436",
     		"mapVersion": 3,
+    	"origImsi": "722070136770436",
     		"emptyBegin": false,
         "dataCoding": 0
 
