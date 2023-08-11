@@ -1,9 +1,9 @@
 _id: req_70fb29806a5146d9aebf66b6e3180b61
 type: Request
 parentId: fld_d53fea3ff39b4d6890617095e49d76ed
-modified: 1671055503971
+modified: 1689180651796
 created: 1671054576681
-url: http://{{ _.ip_emag }}:8081/cli/v1/get_app_bind_counters
+url: http://192.168.217.110:8081/cli/v1/get_app_bind_counters
 name: MAX_conn_APPs
 description: ""
 method: GET

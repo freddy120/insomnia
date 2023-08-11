@@ -1,7 +1,7 @@
 _id: req_2b467c111dcc487a84246748b6250ea0
 type: Request
 parentId: fld_cea7a0775bd94c50b1ef637adbfd645c
-modified: 1686676635600
+modified: 1689918128245
 created: 1677101655210
 url: http://192.168.217.101:8081/test/sendMo_1
 name: SMPP ESME SUBMIT
@@ -18,7 +18,7 @@ body:
         "dstDigits": "2954151234",
         "dstTon": 2,
         "dstNpi": 1,
-        "statusReport": false,
+        "statusReport": true,
         "pid": 100,
         "text": "COMO estas amigo?",
         "udh": false,

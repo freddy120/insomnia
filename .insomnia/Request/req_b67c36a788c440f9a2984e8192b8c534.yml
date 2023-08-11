@@ -1,9 +1,9 @@
 _id: req_b67c36a788c440f9a2984e8192b8c534
 type: Request
 parentId: fld_d53fea3ff39b4d6890617095e49d76ed
-modified: 1671055622126
+modified: 1689180655564
 created: 1671054487469
-url: http://{{ _.ip_emag }}:8081/cli/v1/get_app_profile_contexts
+url: http://192.168.217.110:8081/cli/v1/get_app_profile_contexts
 name: app_profile_context
 description: ""
 method: GET

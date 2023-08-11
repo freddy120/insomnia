@@ -1,9 +1,9 @@
 _id: req_df7e781c63ea48569424f5beee8c66df
 type: Request
-parentId: wrk_65ccc4e3f77f4c4b936ffe694d0879a7
-modified: 1675109732054
+parentId: fld_cea7a0775bd94c50b1ef637adbfd645c
+modified: 1691679768483
 created: 1669391814583
-url: http://192.168.2.140:8083/test/sendMo_1_smsc
+url: http://192.168.217.101:8081/test/sendMo_1_smsc
 name: SMPP ESME SUBMIT_SMSC
 description: ""
 method: POST
@@ -12,18 +12,18 @@ body:
   text: |-
     {
 
-        "origDigits": "541136720018",
-        "origTon": 2,
+        "origDigits": "593969095865",
+        "origTon": 1,
         "origNpi": 1,
-        "dstDigits": "123",
-        "dstTon": 2,
+        "dstDigits": "389",
+        "dstTon": 1,
         "dstNpi": 1,
         "statusReport": false,
         "pid": 0,
         "text": "Hello world,n:ÄÖöñÑÜà%&#*(), spanish: ÁáÚ€úÍí{}ç[~]Óó",
         "udh": false,
         "encoding": "GSM_7_DEFAULT",
-        "systemId": "CLARO_AAG_MT",
+        "systemId": "ID380",
         "specialCase": false,
         "concurrent": false,
         "numberOfMsg": 1,
@@ -35,7 +35,7 @@ headers:
   - name: Content-Type
     value: application/json
 authentication: {}
-metaSortKey: -1669242665333.5
+metaSortKey: -1669242665245.6765
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
